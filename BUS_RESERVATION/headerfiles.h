@@ -10,15 +10,6 @@
 #define NAME_SIZE 20
 
 int cnt;
-/* Declare funaction */
-
-void Sign_In();
-void Sign_Up();
-int Check_Info(char*,char*);
-int Save_Info(char*,char*);
-void FrontPage();
-
-
 /* Declare structure */
 
 typedef struct info{
@@ -35,8 +26,17 @@ char gender[1];
 struct reservation *next;
 }Reserve;
 
+/* Declare funaction */
 void Save_Reservation(Reserve *);
 Reserve *Seat_Reservation(Reserve *);
+
+void Sign_In();
+void Sign_Up();
+int Check_Info(char*,char*);
+int Save_Info(char*,char*);
+void FrontPage();
+void display(Reserve *);
+
 /* Add funcation as per requirement */
 
 #endif

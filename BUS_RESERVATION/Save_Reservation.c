@@ -1,6 +1,6 @@
 #include "headerfiles.h"
 
-void Save_Reservation_Details(Reserve *head)
+void Save_Reservation(Reserve *head)
 {
     FILE *fp =NULL;
     Reserve  *temp =head;
@@ -17,8 +17,8 @@ void Save_Reservation_Details(Reserve *head)
 
     while(temp)
     {
-        sprintf(buffer,"%d %d %s %s",temp->age,temp->seatno,temp->name,temp->gender); // convert all data into string and store into a single buffer.
-
+        sprintf(buffer,"%d %d %s %s\n",temp->age,temp->seatno,temp->name,temp->gender); // convert all data into string and store into a single buffer.
+	strcat(buffer,"\n");
         fprintf(fp,"%s",buffer);
         temp = temp->next;
 

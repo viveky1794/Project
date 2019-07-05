@@ -17,8 +17,9 @@ Seat_Reservation.o:Seat_Reservation.c
 	cc -c Seat_Reservation.c
 
 Save_Reservation.o:Save_Reservation.c
-    cc -c Save_Reservation.c
+	cc -c Save_Reservation.c
 
-
+display.o:display.c
+	cc -c display.c
 
 

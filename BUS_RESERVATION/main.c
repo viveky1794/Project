@@ -19,7 +19,9 @@
 
 
 #include"headerfiles.h"
+//void Save_Reservation(Reserve *);
 int flag=0;
+
 int main(){
 int sign;
 Reserve *head=NULL;
@@ -78,7 +80,7 @@ if(flag == 1){
 }
 }
     // save data into file.
-    //display(head);
+    display(head);
     Save_Reservation(head);
 return 0;
 }
