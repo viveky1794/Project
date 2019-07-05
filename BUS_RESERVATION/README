@@ -1,0 +1,120 @@
+ /*
+
+    NAME : VIVEK YADAV
+
+    PROJECT NAME : BUS RESERVATION
+
+    COMPUTER LANGUAGE : C
+
+    DATE :
+
+    CONTECT DETAILS : viveky1794@gmail.com
+
+    REVIEWER :
+
+*/                                           
+                                    BUS RESERVATION
+                                ----------------------
+                                ---------------------- 
+
+    This program is for BUS reservation. Which provide below funcationality.
+    
+    1>> Sign In
+    2>> Sign Up
+    3>> Exit
+
+  >>>>  It check that is user exiting user or new user ?
+        According to that it takes some decisions.
+        
+  >>>>  It encripted the user cradiantials and then store into file.as a security
+        feature.
+
+
+  >>>>  If Exsiting user then ask for user cradintial and check with Data base.
+        Else make a profile for user and again ask provided Cradintial.
+
+  >>>>  It asks user to enter how many seats they want.If avaible then enter
+        their details and store into their data base(DB).
+
+  >>>>  Program ask to Enter NAME,AGE and GENDER and store that into DB.
+       
+
+
+
+
+                   ---------------------------  
+        >>>>>>>    FILE name and their purpose    <<<<<<      
+                   --------------------------- 
+
+
+
+        
+        1->>    main.c 
+                    >>>> main file from where pogram start.
+
+        2->>    headerfiles.h
+                    >>>> In this file all the funcations prototypes and structs declares
+                         some variable like cnt and Macroes define and declare.
+
+        3->>    front_page.c
+                    >>>> This file basically deals with the starting face of program.
+
+
+
+                                                              |-----------------| 
+                                                              | BUS RESERVATION |
+                                                              |-----------------|
+                                                                       |
+                                                                       |
+                                                                       |
+                                                                       |
+                                                                      \|/       
+                                             -------------------------------------------------------------------
+                                            |                                                                  | 
+                                            |                                                                  | 
+                                            |                                                                  |
+                                            |                                                                  | 
+                                           \|/                                                                \|/ 
+                                |---------------------------|                                      |--------------------------|
+                                |       SIGN IN             |<<<<-------------|                    |        SIGN UP           | 
+                                |---------------------------|                 |                    |--------------------------|
+                                            |                                 |                                |
+                                            |                                 |                                |
+                                            |                                 |                                |
+                           |----------------|-------------------|             |                               \|/
+                           |               \|/                  |             |                    |--------------------------|             |------------------|
+                           |    |---------------------------|   |             |                    |                          |-------->>>> |  User Email/Name |
+                           |    | User Email/Name           |   |             |                    |                          |             |------------------|
+                           |    |---------------------------|   |             |                    |                          |                 
+ Match with Data Base      |                |                   |             |                    |                          |             |------------------|
+ --------------------      |    |---------------------------|   |             <<<<-----------------|   Enter Cradintial       |-------->>>> | Password         |
+                           |    | Password                  |   |                                  |                          |             |------------------|
+                           |    |---------------------------|   |<<<<<--------|                    |                          | 
+            |--------------|                                    |             |                    |                          |             |------------------|
+            |              |------------------------------------|             |                    |                          |-------->>>> | Comfirm Password |
+            | FALSE                         |                                 |                    |--------------------------|             |------------------|
+            |                               |                                 |                                 |
+      |----------|                          |   TRUE                          |                                 |
+      | EXIT     |                          |                                 |                                 |
+      |----------|                          |                                 |                                 |
+                                            |                                 |Decrypt[ incomplete ]            | Encrypt[ incomplete ]
+                                           \|/                                |                                 |                    
+                                |---------------------------|                 |                                \|/
+                                | Ask For No of Seat U want |                 |                    |--------------------------|
+                                |and then details of persons|                 |<<<<<---------------| SAVE into File           |
+                                |i.e Name,Age,Gender        |                                      |--------------------------|             
+                                |---------------------------|                            
+                                            |
+                                            |
+                                            |
+                                           \|/
+                                |---------------------------|
+        [ incomplete ]          |   Save Into File          |
+                                |---------------------------|
+
+
+
+
+
+
+    
